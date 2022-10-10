@@ -1,6 +1,4 @@
-#Copyright ©️ 2022 TeLe TiPs. All Rights Reserved
-#You are free to use this code in any of your project, but you MUST include the following in your README.md (Copy & paste)
-# ##Credits - [MediaToTelegraphLink bot by TeLe TiPs] (https://github.com/teletips/MediaToTelegraphLink-TeLeTiPs)
+
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
@@ -71,7 +69,6 @@ async def get_link_group(client, message):
     except Exception:
         pass                                           
 
-print("Bot is alive!")
+print("البوت شغال!")
 teletips.run()
 
-#Copyright ©️ 2022 TeLe TiPs. All Rights Reserved
